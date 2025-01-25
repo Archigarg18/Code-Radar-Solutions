@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char charater;
-    scanf("%s",&charater);
+    char character;
+    scanf("%c",&character);
     printf("You entered: %.2f\n",character);
     return 0;
 }
