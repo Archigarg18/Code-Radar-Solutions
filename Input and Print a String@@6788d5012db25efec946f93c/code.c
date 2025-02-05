@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char a;
+    char ch;
     printf("");
-    scanf("%c",&a);
-    printf("You entered: %c/n",a);
+    scanf("%c",&ch);
+    printf("You entered: %/n",ch);
     return 0;
 }
