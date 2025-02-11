@@ -3,7 +3,7 @@
 
 int main() {
     char ch;
-    printf("Enter grade (A, B, C, D, F): ");
+    printf("");
     scanf("%c", &ch);
     switch (ch) {
         case 'A':
