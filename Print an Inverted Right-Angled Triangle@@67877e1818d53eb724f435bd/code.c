@@ -10,7 +10,7 @@ int main()
           if(j<=rows-i)
           printf(" ");
           else
-          printf("*");
+          printf(" *");
       }
       printf("\n");
   }
