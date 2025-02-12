@@ -9,7 +9,7 @@ int main()
       for(space=1;space<=rows-i;space++)
       printf(" ");
       for (j=1;j<=i;j++){
-      printf("%d ");
+      printf("%d ",j);
   }
   printf("\n");
   }
