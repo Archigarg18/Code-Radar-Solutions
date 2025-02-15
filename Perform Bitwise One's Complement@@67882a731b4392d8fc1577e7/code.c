@@ -7,6 +7,6 @@ int main() {
     result1 = ~a;
     printf("%d",result1);
     result2=~b;
-    printf("%d",result2)
+    printf("%d",result2);
     return 0;
 }
