@@ -5,7 +5,7 @@ int main() {
     int num;
 
     // Input the number
-    printf("Enter a number: ");
+    printf("");
     scanf("%d", &num);
 
     // Check the LSB (Least Significant Bit)
