@@ -5,8 +5,8 @@ int main() {
     printf("");
     scanf("%d %d",&a,&b);
     result1 = ~a;
-    printf("%d",result1);
+    printf("%.1d",result1);
     result2=~b;
-    printf("%d",result2);
+    printf("%.1d",result2);
     return 0;
 }
