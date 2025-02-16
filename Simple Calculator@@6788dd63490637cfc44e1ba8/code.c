@@ -1,26 +1,26 @@
 #include <stdio.h>
 int main() {
-    double a,b;
+    int a,b;
     char operator;
     printf("");
-    scanf("%lf", &a);
+    scanf("%d", &a);
     printf("");
-    scanf("%lf",&b);
+    scanf("%d",&b);
     printf("");
     scanf(" %c", &operator); 
     switch (operator) {
         case '+':
-            printf("%.2lf + %.2lf = %.2lf\n",a,b, a + b);
+            printf("%d + %d = %d\n",a,b, a + b);
             break;
         case '-':
-            printf("%.2lf - %.2lf = %.2lf\n", a, b, a - b);
+            printf("%d - %d = %d\n", a, b, a - b);
             break;
         case '*':
-            printf("%.2lf * %.2lf = %.2lf\n", a,b, a * b);
+            printf("%d * %d = %d\n", a,b, a * b);
             break;
         case '/':
             if (b != 0) {
-                printf("%.2lf / %.2lf = %.2lf\n",a, b, a / b);
+                printf("%d / %d = %d\n",a, b, a / b);
             } else {
                 printf("Error! Division by zero.\n");
             }
