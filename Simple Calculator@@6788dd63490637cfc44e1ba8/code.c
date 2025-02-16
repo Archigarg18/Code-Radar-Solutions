@@ -10,17 +10,17 @@ int main() {
     scanf(" %c", &operator); 
     switch (operator) {
         case '+':
-            printf("%d + %d = %d\n",a,b, a + b);
+            printf("%d\n", a + b);
             break;
         case '-':
-            printf("%d - %d = %d\n", a, b, a - b);
+            printf("%d\n", a - b);
             break;
         case '*':
-            printf("%d * %d = %d\n", a,b, a * b);
+            printf("%d\n",a * b);
             break;
         case '/':
             if (b != 0) {
-                printf("%d / %d = %d\n",a, b, a / b);
+                printf("%d\n", a / b);
             } else {
                 printf("Error! Division by zero.\n");
             }
