@@ -20,9 +20,9 @@ void printBinary(int number) {
 }
 int main() {
     int number;
-    printf("Enter a decimal number: ");
+    printf("");
     scanf("%d", &number);
-    printf("Binary representation: ");
+    printf("");
     printBinary(number);
     return 0;
 }
