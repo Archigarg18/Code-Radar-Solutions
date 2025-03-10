@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main() {
     int number;
-    printf("Enter a number: ");
+    printf("");
     scanf("%d", &number);
     int flippedNumber = ~number;
-    printf("Flipped number: %d\n", flippedNumber);
+    printf("%d\n", flippedNumber);
     return 0;
 }
