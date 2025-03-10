@@ -13,9 +13,9 @@ int countTrailingZeros(int number) {
 }
 int main() {
     int number;
-    printf("Enter a number: ");
+    printf("");
     scanf("%d", &number);
     int result = countTrailingZeros(number);
-    printf("Number of trailing zeros: %d\n", result);
+    printf("%d\n", result);
     return 0;
 }
