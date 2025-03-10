@@ -2,9 +2,9 @@
 
 int main() {
     int number, n, bit_value;
-    printf("Enter the number: ");
+    printf("");
     scanf("%d", &number);
-    printf("Enter the bit position (0-based): ");
+    printf("");
     scanf("%d", &n);
     bit_value = (number >> n) & 1;
     printf("%d\n", bit_value);
