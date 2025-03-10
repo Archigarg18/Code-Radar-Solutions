@@ -2,9 +2,9 @@
 #include <stdio.h>
 int main() {
     int number, n;
-    printf("Enter the number: ");
+    printf("");
     scanf("%d", &number);
-    printf("Enter the bit position (0-based): ");
+    printf("");
     scanf("%d", &n);
     int mask = ~(1 << n);
     number = number & mask;
