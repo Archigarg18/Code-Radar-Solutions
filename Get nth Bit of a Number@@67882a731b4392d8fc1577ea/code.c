@@ -1,18 +1,13 @@
-// Your code here...
 #include <stdio.h>
 
-int getNthBit(int num, int n) {
-    
-    return (num >> n) & 1;
-}
-
 int main() {
-    int number = 29;  
-    int n = 3;        
-
-    int bitValue = getNthBit(number, n);
-
-    printf("%d\n",n,bitValue);
-
+    int number, n, bit_value;
+    printf("Enter the number: ");
+    scanf("%d", &number);
+    printf("Enter the bit position (0-based): ");
+    scanf("%d", &n);
+    bit_value = (number >> n) & 1;
+    printf("%d\n", bit_value);
     return 0;
 }
+
