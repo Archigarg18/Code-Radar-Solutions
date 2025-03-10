@@ -12,7 +12,7 @@ int main() {
 
     int bitValue = getNthBit(number, n);
 
-    printf("%d\n",bitvalue);
+    printf("%d\n",bitValue);
 
     return 0;
 }
