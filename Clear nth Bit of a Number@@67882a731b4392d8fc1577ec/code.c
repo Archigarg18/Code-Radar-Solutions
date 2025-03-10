@@ -8,6 +8,6 @@ int main() {
     scanf("%d", &n);
     int mask = ~(1 << n);
     number = number & mask;
-    printf("Updated number: %d\n", number);
+    printf("%d\n", number);
     return 0;
 }
